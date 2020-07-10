@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#000000,#000000);
+    font-size: 100%;
+}
+.main-div{
+    /* border: solid 2px; */
+    color: whitesmoke;
+}
+
+.sw-head{
+    font-size: 35px;
+    /* border: 2px solid ; */
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+    /* box-shadow: gainsboro 5px 8px 10px inset; */
+}
+
+.main-counter-div{
+    /* border: 2px solid whitesmoke; */
+
+}
+.sub-main-div{
+    /* border: 2px solid white; */
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.min-div{
+    /* border: 2px solid rgb(54, 41, 41); */
+    width: 100px;
+    margin: 5px;
+    background-color: rgb(109, 103, 103) !important;
+    padding: 5px;
+    font-size: 90px;
+    box-shadow:  2px 5px 10px inset;
+    border-radius: 15px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+}
+.sec-div{
+    /* border: 2px solid whitesmoke; */
+    background-color: rgb(109, 103, 103) !important;
+    box-shadow:  2px 5px 10px inset;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 90px;
+    border-radius: 15px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+
+}
+.msec-div{
+    /* border: 2px solid whitesmoke; */
+    background-color: rgb(109, 103, 103) !important;
+    box-shadow:  2px 5px 10px inset;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 90px;
+    border-radius: 15px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+
+}
+.main-but-div{
+    /* border: 2px solid white; */
+    margin-top: 30px;
+}
+.sub-but-div{
+    /* border: 2px solid white; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.butt{
+    width: 80px;
+    height: 35px;
+    margin: 5px;
+    border: transparent;
+    background-color: rgb(83, 81, 81);
+    color: whitesmoke;
+    box-shadow:  2px 5px 10px inset;
+    border-radius: 15px;
+    outline: none;
+    
+}
+.butt:active{
+    transform: translateY(5px);
+    transition: 0.45s;
+}
+.butt:hover{
+    cursor: pointer;
+}
+.laps-div{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(99, 94, 94);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width:501px){
+    div.min-div,div.sec-div,div.msec-div{
+        font-size: 90px;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+@media  screen and (max-width:500px){
+    div.min-div,div.sec-div,div.msec-div{
+        font-size: 60px;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+@media  screen and (min-width:501px){
+    div.sw-head{
+        font-size: 35px;
+    }
+}
+@media  screen and (max-width:500px){
+    div.sw-head{
+        font-size: 20px;
+    }
+}
+@media  screen and (max-width:501px){
+    .butt{
+         width: 100px;
+    }
+}
+@media  screen and (max-width:500px){
+    .butt{
+         width: 70px;
+    }
+}
+@media  screen and (max-width:431px){
+    .butt{
+         width: 70px;
+    }
+}
+@media  screen and (max-width:430px){
+    .butt{
+         width: 50px;
+         height: 25px;
+    }
+}
+@media  screen and (max-width:431px){
+    div.min-div,div.sec-div,div.msec-div{
+         width: 100px;
+         font-size: 60px;
+    }
+}
+@media  screen and (max-width:430px){
+    div.min-div,div.sec-div,div.msec-div{
+         width: 70px;
+         font-size: 60px;
+         height: 70px;
+         
+    }
+}
